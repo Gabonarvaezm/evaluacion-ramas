@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Estefania Gongora Torres | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Valeria<span>.</span></a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#proyectos" data-lang-es="Mis Proyectos" data-lang-en="My Projects">Mis Proyectos</a></li>
+                <li><a href="#experiencia" data-lang-es="Experiencia" data-lang-en="Experience">Experiencia</a></li>
+                <li><a href="#testimonios" data-lang-es="Testimonios" data-lang-en="Testimonials">Testimonios</a></li>
+                <li><a href="#conoceme" data-lang-es="Conóceme" data-lang-en="About Me">Conóceme</a></li>
+                <li><a href="#contacto" class="btn-nav" data-lang-es="Contáctame" data-lang-en="Contact Me">Contáctame</a></li>
+                <li class="lang-toggle">
+                    <button id="langES" class="lang-btn active">ES</button>
+                    <span class="lang-separator">|</span>
+                    <button id="langEN" class="lang-btn">EN</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="star">✦</span>
+                    <span data-lang-es="Estudiante de Ingeniería de Software" data-lang-en="Software Engineering Student">Estudiante de Ingeniería de Software</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting" data-lang-es="Hola, soy" data-lang-en="Hi, I'm">Hola, soy</span>
+                    <span class="name">Valeria</span>
+                </h1>
+                <p class="hero-description" data-lang-es="Soy estudiante de <strong>Ingeniería de Software</strong> de 21 años, apasionada por el desarrollo web y el diseño de interfaces modernas. Me destaco por mi enfoque en lo visual, creando experiencias digitales atractivas, limpias y bien estructuradas." data-lang-en="I'm a 21-year-old <strong>Software Engineering</strong> student, passionate about web development and modern interface design. I stand out for my visual approach, creating attractive, clean, and well-structured digital experiences.">
+                    Soy estudiante de <strong>Ingeniería de Software</strong> de 21 años, apasionada por el desarrollo web y el diseño de interfaces modernas. Me destaco por mi enfoque en lo visual, creando experiencias digitales atractivas, limpias y bien estructuradas.
+                </p>
+                <p class="hero-subdescription" data-lang-es="Tengo certificación <strong>B1 en inglés</strong> y una gran motivación por seguir aprendiendo y creciendo en el mundo tecnológico." data-lang-en="I have a <strong>B1 English certification</strong> and a strong motivation to keep learning and growing in the tech world.">
+                    Tengo certificación <strong>B1 en inglés</strong> y una gran motivación por seguir aprendiendo y creciendo en el mundo tecnológico.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        <span data-lang-es="Ver proyectos" data-lang-en="View Projects">Ver proyectos</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#contacto" class="btn btn-secondary" data-lang-es="Contáctame" data-lang-en="Contact Me">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="decorative-star star-1">✦</div>
+                    <div class="decorative-star star-2">✦</div>
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Tz3mmqN7mG0r4yn9GhQ4qafsNmEZPd.png" alt="Valeria Estefania Gongora Torres" class="hero-image">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="conoceme">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-lang-es="✦ Introducción" data-lang-en="✦ Introduction">✦ Introducción</span>
+                <h2 class="section-title" data-lang-es="SOBRE MÍ" data-lang-en="ABOUT ME">SOBRE MÍ</h2>
+            </div>
+            <div class="about-grid about-grid-no-image">
+                <div class="about-content">
+                    <p class="about-text" data-lang-es="Soy una persona <strong>carismática, empática y soñadora</strong>, apasionada por el mundo digital y el aprendizaje constante. Desde pequeña fui deportista en gimnasia artística, lo que me permitió desarrollar disciplina y enfoque." data-lang-en="I'm a <strong>charismatic, empathetic, and dreamy</strong> person, passionate about the digital world and constant learning. Since childhood, I was an athlete in artistic gymnastics, which allowed me to develop discipline and focus.">
+                        Soy una persona <strong>carismática, empática y soñadora</strong>, apasionada por el mundo digital y el aprendizaje constante. Desde pequeña fui deportista en gimnasia artística, lo que me permitió desarrollar disciplina y enfoque.
+                    </p>
+                    <p class="about-text" data-lang-es="Me encanta explorar culturas de otros países, he viajado por Ecuador y distintas regiones de Colombia. Además, disfruto crear contenido digital, modelaje y publicidad como parte de mi lado creativo." data-lang-en="I love exploring cultures from other countries, I've traveled through Ecuador and different regions of Colombia. Additionally, I enjoy creating digital content, modeling, and advertising as part of my creative side.">
+                        Me encanta explorar culturas de otros países, he viajado por Ecuador y distintas regiones de Colombia. Además, disfruto crear contenido digital, modelaje y publicidad como parte de mi lado creativo.
+                    </p>
+                    <div class="about-extras">
+                        <div class="extra-item">
+                            <span class="extra-icon">◆</span>
+                            <span data-lang-es="Enfoque visual fuerte" data-lang-en="Strong visual focus">Enfoque visual fuerte</span>
+                        </div>
+                        <div class="extra-item">
+                            <span class="extra-icon">◆</span>
+                            <span data-lang-es="Pasión por la estética digital" data-lang-en="Passion for digital aesthetics">Pasión por la estética digital</span>
+                        </div>
+                        <div class="extra-item">
+                            <span class="extra-icon">◆</span>
+                            <span data-lang-es="Aprendizaje constante" data-lang-en="Constant learning">Aprendizaje constante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section class="strengths-section">
+        <div class="container">
+            <div class="strengths-grid">
+                <div class="strengths-header">
+                    <h2 class="strengths-title" data-lang-es="FORTALEZAS" data-lang-en="STRENGTHS">FORTALEZAS</h2>
+                    <p class="strengths-subtitle" data-lang-es="Personalidad" data-lang-en="Personality">Personalidad</p>
+                </div>
+                <div class="strengths-list">
+                    <div class="strength-item">
+                        <h4 data-lang-es="Adaptabilidad" data-lang-en="Adaptability">Adaptabilidad</h4>
+                        <p data-lang-es="Me adapto rápidamente a nuevas tecnologías y metodologías de trabajo." data-lang-en="I quickly adapt to new technologies and work methodologies.">Me adapto rápidamente a nuevas tecnologías y metodologías de trabajo.</p>
+                    </div>
+                    <div class="strength-item">
+                        <h4 data-lang-es="Narrativa Creativa" data-lang-en="Creative Storytelling">Narrativa Creativa</h4>
+                        <p data-lang-es="Capacidad para crear narrativas visuales que capturan la atención." data-lang-en="Ability to create visual narratives that capture attention.">Capacidad para crear narrativas visuales que capturan la atención.</p>
+                    </div>
+                    <div class="strength-item">
+                        <h4 data-lang-es="Enfoque en Comunidad" data-lang-en="Community Focused">Enfoque en Comunidad</h4>
+                        <p data-lang-es="Construyo relaciones significativas con mis compañeros de equipo." data-lang-en="I build meaningful relationships with my teammates.">Construyo relaciones significativas con mis compañeros de equipo.</p>
+                    </div>
+                    <div class="strength-item">
+                        <h4 data-lang-es="Experta en Tecnología" data-lang-en="Tech-Savvy">Experta en Tecnología</h4>
+                        <p data-lang-es="Uso las últimas herramientas y tendencias para crear contenido de vanguardia." data-lang-en="I use the latest tools and trends to create cutting-edge content.">Uso las últimas herramientas y tendencias para crear contenido de vanguardia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h4>HTML</h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h4>CSS</h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                            <polyline points="2 17 12 22 22 17"/>
+                            <polyline points="2 12 12 17 22 12"/>
+                        </svg>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9"/>
+                            <line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <h4>Figma</h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <polyline points="21 15 16 10 5 21"/>
+                        </svg>
+                    </div>
+                    <h4>Diseño UI</h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h4>Creatividad</h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="proyectos">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">✦ Trabajos</span>
+                <h2 class="section-title">PROJECTS</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card project-large">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <span class="project-tag">Brand</span>
+                        <h3 class="project-title">Portafolio Web</h3>
+                        <p class="project-description">
+                            Diseño y desarrollo de un portafolio personal enfocado en UI moderna y experiencia de usuario.
+                        </p>
+                        <div class="project-skills">
+                            <span>Diseño UI/UX</span>
+                            <span>Maquetación</span>
+                            <span>Enfoque visual</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Figma</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            Ver proyecto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>Portfolio Preview</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <span class="project-tag">App</span>
+                        <h3 class="project-title">App de Tareas</h3>
+                        <p class="project-description">
+                            Aplicación web para gestión de tareas con una interfaz intuitiva y visualmente atractiva.
+                        </p>
+                        <div class="project-skills">
+                            <span>Lógica frontend</span>
+                            <span>Organización</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            Ver proyecto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-content">
+                        <span class="project-tag">UI/UX</span>
+                        <h3 class="project-title">Sistema de Login</h3>
+                        <p class="project-description">
+                            Interfaz de autenticación con diseño moderno y enfoque en experiencia de usuario.
+                        </p>
+                        <div class="project-skills">
+                            <span>UX</span>
+                            <span>Formularios</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            Ver código
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experiencia">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="experience-header">
+                    <h2 class="experience-title" data-lang-es="EXPERIENCIA" data-lang-en="EXPERIENCE">EXPERIENCIA</h2>
+                    <p class="experience-subtitle" data-lang-es="Trabajo" data-lang-en="Work">Trabajo</p>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-item">
+                        <div class="experience-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 data-lang-es="Ingeniería de Software" data-lang-en="Software Engineering">Ingeniería de Software</h4>
+                            <p data-lang-es="Estudiante en formación • 5to Semestre" data-lang-en="Student in training • 5th Semester">Estudiante en formación • 5to Semestre</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 data-lang-es="Desarrollo Frontend" data-lang-en="Frontend Development">Desarrollo Frontend</h4>
+                            <p data-lang-es="Habilidades en programación, lógica, diseño de interfaces y desarrollo web" data-lang-en="Skills in programming, logic, interface design, and web development">Habilidades en programación, lógica, diseño de interfaces y desarrollo web</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M2 12h20"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 data-lang-es="Certificación B1 Inglés" data-lang-en="B1 English Certification">Certificación B1 Inglés</h4>
+                            <p data-lang-es="Comunicación efectiva en entornos internacionales" data-lang-en="Effective communication in international environments">Comunicación efectiva en entornos internacionales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-lang-es="✦ Referencias" data-lang-en="✦ References">✦ Referencias</span>
+                <h2 class="section-title" data-lang-es="TESTIMONIOS" data-lang-en="TESTIMONIALS">TESTIMONIOS</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text" data-lang-es="Valeria demuestra compromiso, creatividad y una gran sensibilidad por el diseño." data-lang-en="Valeria demonstrates commitment, creativity, and a great sensitivity for design.">
+                        Valeria demuestra compromiso, creatividad y una gran sensibilidad por el diseño.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <h5 data-lang-es="Profesor de Diseño" data-lang-en="Design Professor">Profesor de Diseño</h5>
+                            <span data-lang-es="Universidad" data-lang-en="University">Universidad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text" data-lang-es="Destaca por su actitud positiva, organización y capacidad de aprendizaje." data-lang-en="Stands out for her positive attitude, organization, and learning capacity.">
+                        Destaca por su actitud positiva, organización y capacidad de aprendizaje.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <h5 data-lang-es="Compañero de Equipo" data-lang-en="Team Member">Compañero de Equipo</h5>
+                            <span data-lang-es="Proyecto Universitario" data-lang-en="University Project">Proyecto Universitario</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text" data-lang-es="Tiene un gran potencial en el desarrollo frontend y diseño de interfaces." data-lang-en="Has great potential in frontend development and interface design.">
+                        Tiene un gran potencial en el desarrollo frontend y diseño de interfaces.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <h5 data-lang-es="Mentor" data-lang-en="Mentor">Mentor</h5>
+                            <span data-lang-es="Programa de Desarrollo" data-lang-en="Development Program">Programa de Desarrollo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Terminal Section - INNOVATIVE -->
+    <section class="terminal-section" id="terminal">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag" data-lang-es="✦ Innovación" data-lang-en="✦ Innovation">✦ Innovación</span>
+                <h2 class="section-title" data-lang-es="TERMINAL INTERACTIVA" data-lang-en="INTERACTIVE TERMINAL">TERMINAL INTERACTIVA</h2>
+                <p class="terminal-intro" data-lang-es="Explora mi perfil de una forma diferente. Escribe comandos para conocerme mejor." data-lang-en="Explore my profile in a different way. Type commands to learn more about me.">Explora mi perfil de una forma diferente. Escribe comandos para conocerme mejor.</p>
+            </div>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <span class="terminal-title">valeria@portfolio ~ </span>
+                </div>
+                <div class="terminal-body" id="terminalBody">
+                    <div class="terminal-output" id="terminalOutput">
+                        <p class="terminal-welcome" data-lang-es="¡Bienvenido/a a mi terminal interactiva!" data-lang-en="Welcome to my interactive terminal!">¡Bienvenido/a a mi terminal interactiva!</p>
+                        <p class="terminal-help" data-lang-es="Escribe 'help' para ver los comandos disponibles." data-lang-en="Type 'help' to see available commands.">Escribe 'help' para ver los comandos disponibles.</p>
+                    </div>
+                    <div class="terminal-input-line">
+                        <span class="terminal-prompt">valeria@portfolio:~$</span>
+                        <input type="text" id="terminalInput" class="terminal-input" placeholder="" autocomplete="off" spellcheck="false">
+                    </div>
+                </div>
+            </div>
+            <div class="terminal-commands-hint">
+                <p data-lang-es="Comandos sugeridos:" data-lang-en="Suggested commands:">Comandos sugeridos:</p>
+                <div class="command-chips">
+                    <button class="command-chip" data-command="about">about</button>
+                    <button class="command-chip" data-command="skills">skills</button>
+                    <button class="command-chip" data-command="projects">projects</button>
+                    <button class="command-chip" data-command="contact">contact</button>
+                    <button class="command-chip" data-command="fun">fun</button>
+                    <button class="command-chip" data-command="clear">clear</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <span class="contact-tag" data-lang-es="Trabajemos" data-lang-en="Let's Work">Trabajemos</span>
+                    <h2 class="contact-title" data-lang-es="JUNTOS" data-lang-en="TOGETHER">JUNTOS</h2>
+                    <p class="contact-description" data-lang-es="¿Te interesa trabajar conmigo o tienes una oportunidad? ¡Me encantaría escucharte!" data-lang-en="Interested in working with me or have an opportunity? I'd love to hear from you!">
+                        ¿Te interesa trabajar conmigo o tienes una oportunidad? ¡Me encantaría escucharte!
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Colombia</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <a href="mailto:valeriagongora3026@gmail.com">valeriagongora3026@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        <span data-lang-es="Disponible para prácticas y proyectos" data-lang-en="Available for internships and projects">Disponible para prácticas y proyectos</span>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Valeria Estefania Gongora Torres</h3>
+                    <p data-lang-es="Estudiante de Ingeniería de Software enfocada en desarrollo frontend y diseño de interfaces modernas." data-lang-en="Software Engineering student focused on frontend development and modern interface design.">Estudiante de Ingeniería de Software enfocada en desarrollo frontend y diseño de interfaces modernas.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-lang-es="Secciones" data-lang-en="Sections">Secciones</h4>
+                    <ul>
+                        <li><a href="#proyectos" data-lang-es="Proyectos" data-lang-en="Projects">Proyectos</a></li>
+                        <li><a href="#experiencia" data-lang-es="Experiencia" data-lang-en="Experience">Experiencia</a></li>
+                        <li><a href="#contacto" data-lang-es="Contacto" data-lang-en="Contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4 data-lang-es="Redes" data-lang-en="Social">Redes</h4>
+                    <div class="social-links">
+                        <a href="#">GitHub</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-lang-es="© 2024 Valeria Estefania Gongora Torres. Todos los derechos reservados." data-lang-en="© 2024 Valeria Estefania Gongora Torres. All rights reserved.">© 2024 Valeria Estefania Gongora Torres. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
