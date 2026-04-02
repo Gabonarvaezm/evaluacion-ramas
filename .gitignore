@@ -1,9 +1,0 @@
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-evaluacion/staticfiles/
-
-.DS_Store
-Thumbs.db
