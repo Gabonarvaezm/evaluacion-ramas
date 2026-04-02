@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio Profesional</title>
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="{% static 'appGabo/styles.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -42,7 +43,7 @@
         </div>
         <div class="hero-image">
             <div class="profile-circle">
-                <img src="images/foto-portafolio.jpeg" alt="Gabriel Narváez" class="profile-img">
+                <img src="{% static 'appGabo/images/foto-portafolio.jpeg' %}" alt="Gabriel Narváez" class="profile-img">
             </div>
         </div>
     </section>
@@ -294,6 +295,6 @@
         </div>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="{% static 'appGabo/app.js' %}"></script>
 </body>
 </html>
