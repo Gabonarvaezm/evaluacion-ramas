@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios</title>
+    <style>
+        :root {
+            --bg: #f4efe8;
+            --panel: rgba(255, 255, 255, 0.72);
+            --text: #1f2937;
+            --muted: #6b7280;
+            --accent-1: #1b2a41;
+            --accent-2: #3d5a80;
+            --accent-3: #0f172a;
+            --border: rgba(31, 41, 55, 0.12);
+            --shadow: 0 20px 50px rgba(27, 42, 65, 0.14);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: "Segoe UI", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(61, 90, 128, 0.18), transparent 30%),
+                radial-gradient(circle at bottom right, rgba(234, 215, 195, 0.9), transparent 35%),
+                linear-gradient(135deg, #fdf8f4 0%, #f4efe8 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+        }
+
+        .shell {
+            width: min(1100px, 100%);
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            margin-bottom: 12px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: rgba(27, 42, 65, 0.08);
+            color: var(--accent-2);
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 4.2rem);
+            line-height: 1.05;
+            margin-bottom: 14px;
+            color: var(--accent-1);
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--muted);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            background: var(--panel);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 26px;
+            box-shadow: var(--shadow);
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 24px 60px rgba(27, 42, 65, 0.18);
+            border-color: rgba(61, 90, 128, 0.28);
+        }
+
+        .tag {
+            display: inline-block;
+            margin-bottom: 18px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        .tag.valeria { background: #3d5a80; }
+        .tag.gabo { background: #0f766e; }
+        .tag.andres { background: #111827; }
+
+        .card h2 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: var(--muted);
+            line-height: 1.65;
+            margin-bottom: 18px;
+        }
+
+        .go {
+            font-weight: 700;
+            color: var(--accent-1);
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="shell">
+        <section class="hero">
+            <span class="eyebrow">Proyecto de portafolios</span>
+            <h1>Elige qué portafolio quieres abrir</h1>
+            <p>
+                Desde esta página principal puedes entrar al trabajo de Valeria, Gabo o Andrés.
+                Cada uno quedó en su propia ruta para que no se pisen entre sí.
+            </p>
+        </section>
+
+        <section class="grid">
+            <a class="card" href="/valeria/">
+                <span class="tag valeria">Valeria</span>
+                <h2>Portafolio de Valeria</h2>
+                <p>Diseño visual elegante, secciones amplias y una terminal interactiva dentro del portafolio.</p>
+                <span class="go">Abrir /valeria/</span>
+            </a>
+
+            <a class="card" href="/gabo/">
+                <span class="tag gabo">Gabo</span>
+                <h2>Portafolio de Gabo</h2>
+                <p>Landing clásica de perfil profesional con habilidades, proyectos, contacto e imagen personal.</p>
+                <span class="go">Abrir /gabo/</span>
+            </a>
+
+            <a class="card" href="/andres/">
+                <span class="tag andres">Andrés</span>
+                <h2>Portafolio de Andrés</h2>
+                <p>Portafolio con estética técnica, foco en backend, servicios ofrecidos y stack tecnológico.</p>
+                <span class="go">Abrir /andres/</span>
+            </a>
+        </section>
+    </main>
+</body>
+</html>
